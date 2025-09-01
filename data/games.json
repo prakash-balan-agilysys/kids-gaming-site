@@ -1,0 +1,99 @@
+{
+    "site": {
+        "title": "Kids Gaming Hub",
+        "tagline": "Discover amazing games designed just for you!",
+        "description": "Fun and educational games for kids aged 10-15",
+        "countdownTarget": "2025-12-25T00:00:00Z",
+        "countdownTitle": "Holiday Game Special Release",
+        "featuredSection": "Featured Games"
+    },
+    "games": [
+        {
+            "id": 1,
+            "name": "Math Adventure Island",
+            "description": "Embark on a tropical adventure while solving exciting math puzzles. Practice addition, subtraction, multiplication, and division in this fun island-themed game!",
+            "difficulty": "Easy",
+            "thumbnail": "assets/images/math-adventure.jpg",
+            "url": "https://example.com/math-adventure",
+            "category": "Educational",
+            "ageRange": "8-12",
+            "skills": ["Math", "Problem Solving"],
+            "rating": 4.5,
+            "playTime": "15-30 minutes"
+        },
+        {
+            "id": 2,
+            "name": "Word Quest Chronicles",
+            "description": "Build your vocabulary while exploring magical kingdoms! Discover new words, spell correctly, and unlock amazing adventures in this enchanting word game.",
+            "difficulty": "Medium",
+            "thumbnail": "assets/images/word-quest.jpg",
+            "url": "https://example.com/word-quest",
+            "category": "Educational",
+            "ageRange": "10-15",
+            "skills": ["Vocabulary", "Spelling", "Reading"],
+            "rating": 4.7,
+            "playTime": "20-45 minutes"
+        },
+        {
+            "id": 3,
+            "name": "Science Lab Explorer",
+            "description": "Conduct virtual experiments and discover the wonders of science! Mix chemicals, observe reactions, and learn about physics, chemistry, and biology.",
+            "difficulty": "Hard",
+            "thumbnail": "assets/images/science-lab.jpg",
+            "url": "https://example.com/science-lab",
+            "category": "Educational",
+            "ageRange": "12-16",
+            "skills": ["Science", "Experimentation", "Critical Thinking"],
+            "rating": 4.8,
+            "playTime": "30-60 minutes"
+        },
+        {
+            "id": 4,
+            "name": "Geography Explorer",
+            "description": "Travel around the world and learn about different countries, capitals, and cultures. Test your geography knowledge in this exciting global adventure!",
+            "difficulty": "Medium",
+            "thumbnail": "assets/images/geography-explorer.jpg",
+            "url": "https://example.com/geography-explorer",
+            "category": "Educational",
+            "ageRange": "10-14",
+            "skills": ["Geography", "Cultural Awareness", "Memory"],
+            "rating": 4.3,
+            "playTime": "25-40 minutes"
+        },
+        {
+            "id": 5,
+            "name": "Code Breaker Academy",
+            "description": "Learn the basics of programming through fun puzzles and challenges. Solve logic problems, create simple animations, and think like a programmer!",
+            "difficulty": "Hard",
+            "thumbnail": "assets/images/code-breaker.jpg",
+            "url": "https://example.com/code-breaker",
+            "category": "STEM",
+            "ageRange": "12-16",
+            "skills": ["Programming", "Logic", "Problem Solving"],
+            "rating": 4.6,
+            "playTime": "45-90 minutes"
+        }
+    ],
+    "categories": [
+        {
+            "name": "Educational",
+            "description": "Games that make learning fun and engaging",
+            "icon": "🎓"
+        },
+        {
+            "name": "STEM",
+            "description": "Science, Technology, Engineering, and Math games",
+            "icon": "🔬"
+        },
+        {
+            "name": "Adventure",
+            "description": "Exciting story-driven games with educational elements",
+            "icon": "🗺️"
+        },
+        {
+            "name": "Puzzle",
+            "description": "Brain-teasing games that challenge your mind",
+            "icon": "🧩"
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HERE AND NOW AI - Kids Gaming Hub</title>
+    <meta name="description" content="Fun and educational games for kids aged 10-15 - designed with passion for innovation">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/logos/favicon-logo-with-name.png" type="image/png">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header" role="banner">
+        <div class="container">
+            <div class="logo">
+                <img src="https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/logos/logo-of-here-and-now-ai.png" alt="HERE AND NOW AI" id="site-logo" class="logo-img">
+                <h1 class="site-title">HERE AND NOW AI</h1>
+            </div>
+            <nav class="nav" role="navigation" aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="#games" class="nav-link">Games</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" aria-labelledby="hero-title">
+        <div class="container">
+            <h2 id="hero-title" class="hero-title">Welcome to Gaming Adventures!</h2>
+            <p class="hero-tagline" id="site-tagline">Discover amazing games designed just for you</p>
+            <!-- TODO: student exercise - Add animated hero background -->
+        </div>
+    </section>
+
+    <!-- Countdown Section -->
+    <section class="countdown-section" aria-labelledby="countdown-title">
+        <div class="container">
+            <h3 id="countdown-title">Holiday Game Special Release</h3>
+            <div class="countdown" id="countdown-timer" role="timer" aria-live="polite">
+                <div class="countdown-item">
+                    <span class="countdown-number" id="days">00</span>
+                    <span class="countdown-label">Days</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="hours">00</span>
+                    <span class="countdown-label">Hours</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="minutes">00</span>
+                    <span class="countdown-label">Minutes</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="seconds">00</span>
+                    <span class="countdown-label">Seconds</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Games Section -->
+    <section class="games-section" id="games" aria-labelledby="games-title">
+        <div class="container">
+            <h3 id="games-title">Featured Games</h3>
+            <div class="games-grid" id="games-container" role="list">
+                <!-- Games will be populated by JavaScript -->
+                <!-- TODO: student exercise - Add search and filter functionality -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about" aria-labelledby="about-title">
+        <div class="container">
+            <h3 id="about-title">About Us</h3>
+            <p class="about-text">We create fun, educational games that help kids learn while they play. Our games are designed to be engaging, safe, and appropriate for young minds.</p>
+            <!-- TODO: student exercise - Add interactive elements to about section -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <footer class="contact-section" id="contact" role="contentinfo" aria-labelledby="contact-title">
+        <div class="container">
+            <h3 id="contact-title">Get in Touch</h3>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span class="contact-label">Email:</span>
+                    <a href="mailto:info@hereandnowai.com" class="contact-link" id="contact-email">info@hereandnowai.com</a>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-label">Phone:</span>
+                    <a href="tel:+919962961000" class="contact-link" id="contact-phone">+91 996 296 1000</a>
+                </div>
+            </div>
+            <div class="social-links" id="social-container">
+                <!-- Social links will be populated by JavaScript -->
+            </div>
+            <p class="footer-text" id="footer-slogan">designed with passion for innovation</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
